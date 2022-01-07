@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-item{
+    @apply p-5 mb-5 cursor-pointer border-r-4 hover:border-r-4 hover:border-red-500 w-2/3 text-2xl transition ease-in;
+}
