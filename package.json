@@ -4,13 +4,16 @@
   "description": "A new tailwind project",
   "main": "index.js",
   "scripts": {
-    "build-css":"tailwind build -i src/styles.css -o public/styles.css --watch",
-    "watch":"watch \"npm run build-css\""
+    "build-css": "tailwind build -i src/styles.css -o public/styles.css --watch",
+    "watch": "watch \"npm run build-css\""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.0.11",
     "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "@tailwindcss/line-clamp": "^0.3.0"
   }
 }
