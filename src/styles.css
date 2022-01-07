@@ -3,5 +3,7 @@
 @tailwind utilities;
 
 .nav-item{
-    @apply p-5 mb-5 cursor-pointer border-r-4 hover:border-r-4 hover:border-red-500 w-2/3 text-2xl transition ease-in;
+    @apply p-5 md:mb-5 cursor-pointer md:border-r-4 
+            md:hover:border-r-4 md:hover:border-red-500 md:w-2/3 md:text-2xl transition ease-in
+            ;
 }
